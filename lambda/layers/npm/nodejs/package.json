@@ -1,0 +1,11 @@
+{
+  "main": "app.ts",
+  "scripts": {
+    "compile": "tsc"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.225.0",
+    "@aws-sdk/lib-dynamodb": "^3.225.0",
+    "ulid": "^2.3.0"
+  }
+}

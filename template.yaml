@@ -173,9 +173,6 @@ Resources:
           AttributeType: "S"
         # CapsuleMembershiplGSI
         -
-          AttributeName: "CapsuleMembershiplGSI"
-          AttributeType: "S"
-        -
           AttributeName: "capsuleMemberUserEmail"
           AttributeType: "S"
         # itemOwnershipGSI

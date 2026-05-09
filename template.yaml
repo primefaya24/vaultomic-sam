@@ -171,6 +171,13 @@ Resources:
         -
           AttributeName: "userEmail"
           AttributeType: "S"
+        # CapsuleMembershiplGSI
+        -
+          AttributeName: "CapsuleMembershiplGSI"
+          AttributeType: "S"
+        -
+          AttributeName: "capsuleMemberUserEmail"
+          AttributeType: "S"
         # itemOwnershipGSI
         -
           AttributeName: "itemOwner"
@@ -207,6 +214,15 @@ Resources:
               KeyType: "HASH"
           Projection:
             ProjectionType: KEYS_ONLY
+        # CapsuleMembershiplGSI
+        - IndexName: CapsuleMembershiplGSI
+          KeySchema:
+            - AttributeName: "capsuleMemberUserEmail"
+              KeyType: "HASH"
+            - AttributeName: "pk"
+              KeyType: "RANGE"
+          Projection:
+            ProjectionType: ALL
         # itemOwnershipGSI - Query self data
         - IndexName: itemOwnershipGSI
           KeySchema:

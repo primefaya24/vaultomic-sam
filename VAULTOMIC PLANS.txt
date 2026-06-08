@@ -1,0 +1,30 @@
+==============================
+VAULTOMIC PLANS
+==============================
+
+### Silver Plan ###
+- Id: PLAN_SILVER
+- Price: FREE
+- Storage: 1GB
+- Max Vault Count: 1
+- Vault Sharing: Yes
+- Max Vault Members: 2 
+- Priority Support: No
+
+### Gold Plan ###
+- Id: PLAN_GOLD
+- Price: 7.99 USD
+- Storage: 100GB
+- Max Vault Count: Unlimited
+- Vault Sharing: Yes
+- Max Vault Members: Unlimited
+- Priority Support: No
+
+### Platinum Plan ###
+- Id: PLAN_PLATINUM
+- Price: 24.99
+- Storage: 1TB
+- Max Vault Count: Unlimited
+- Vault Sharing: Yes
+- Max Vault Members: Unlimited
+- Priority Support: Yes
